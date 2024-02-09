@@ -1,0 +1,24 @@
+.home{
+    background-color: #1ABC9C;
+}
+.imag{
+    width: 17%;
+}
+.star::before{
+    content: "";
+    background-color: #fff;
+    height: 4px;
+    width: 80px;
+    position: absolute;
+    left: 43%;
+    bottom: 22.5%
+}
+.star::after{
+    content: "";
+    background-color: #fff;
+    height: 4px;
+    width: 80px;
+    position: absolute;
+    right: 43%;
+    bottom: 22.5%
+}
